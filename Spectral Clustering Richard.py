@@ -44,10 +44,6 @@ def nearest(coord, cent):
             
     return mindex
 
-
-# In[137]:
-
-
 #lloyd's method in 2-d space
 def kmeans(data, k):
 
@@ -84,11 +80,7 @@ def kmeans(data, k):
         labels.append(nearest(data[i],cent))
         
     return labels
-        
-
-
-# In[170]:
-
+      
 
 #transformation of data for more flexible clustering
 def transformation(data, r, k):
