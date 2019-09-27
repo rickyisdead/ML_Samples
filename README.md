@@ -1,2 +1,3 @@
-# ML_Samples
-Personal coding samples from Nakul Verma's Introduction to Machine Learning class
+This is a personal coding sample by Richard Pan, originally writing for Nakul Verma's Introduction to Machine Learning class.
+The code is a theoretical demonstration of spectral clustering for unsupervised learning, implemented in numpy. The datasets are generated from the sklearn.dataset library, but the code is otherwise implemented without use of machine learning python libraries.
+The result comparisons between vanilla lloyd's algorithm k-means and the transformed spectral clustering version are shown as images. When trying to run this code, note that there are rare cases where bad initialization can lead to bad convergence results.
